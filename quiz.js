@@ -128,6 +128,7 @@ for (let i = 0; i < optionBtnArray.length; i++) {
     if (k >= 4) {
       quesDiv.textContent = "Quiz Completed";
       optDiv.remove();
+      nextBtn.remove();
     }
 
     k++;
